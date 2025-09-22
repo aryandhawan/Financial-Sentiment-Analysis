@@ -3,7 +3,7 @@ This project is a rigorous, end-to-end machine learning experiment designed to t
 
 Instead of just building a model, the goal was to construct a professional, scalable MLOps pipeline to investigate the limits of what classical machine learning algorithms can achieve on such a noisy and complex problem. The findings from this experiment serve as a data-driven justification for the necessity of more advanced Deep Learning techniques for nuanced language understanding.
 
-# 📈 Project Workflow & System Design
+#  Project Workflow & System Design
 The entire system was designed as a modular, configuration-driven "model factory," following modern MLOps best practices.
 
 Data Ingestion: A robust data pipeline was engineered to create a novel dataset by pulling from two separate, real-time sources:
@@ -32,7 +32,7 @@ XGBoost
 
 Handling Class Imbalance: Initial results revealed a severe class imbalance. The pipeline was upgraded to include the SMOTE (Synthetic Minority Over-sampling Technique) on the training data, forcing the models to learn the patterns of the minority "Up" and "Down" classes.
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 Data Manipulation & Analysis: Pandas, NumPy
 
 Machine Learning: Scikit-learn, XGBoost, Imbalanced-learn
